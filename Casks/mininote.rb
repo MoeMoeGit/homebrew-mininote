@@ -1,9 +1,8 @@
 cask "mininote" do
-  version "0.3.1"
-  sha256 "b1bf96b332761b30a6e05bee5d7ecf45aecf25180b122a46447a51ca5d971370"
+  version "0.3.3"
+  sha256 "0a39e4333fcc25961c0a6173ae0566f5d2410ebff330c135db6ba0e0d4c8eb24"
 
-  url "https://github.com/vivalucas/mininote/releases/download/v#{version}/MiniNote-#{version}.dmg",
-      verified: "github.com/vivalucas/mininote/"
+  url "https://github.com/vivalucas/mininote/releases/download/v#{version}/MiniNote-#{version}.dmg"
   name "MiniNote"
   desc "Minimal note app for macOS"
   homepage "https://github.com/vivalucas/mininote"
