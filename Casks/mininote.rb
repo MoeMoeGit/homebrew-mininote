@@ -1,6 +1,6 @@
 cask "mininote" do
   version "0.3.6"
-  sha256 "274d05488d721ac0a31c3e06f720631dcb5c87e8941196d830fb846cc9184a36"
+  sha256 "c74946c87ddcf3e3992a5043dbc31842ff007168d2a74f586de29032b71c3141"
 
   url "https://github.com/vivalucas/mininote/releases/download/v#{version}/MiniNote-#{version}.dmg"
   name "MiniNote"
