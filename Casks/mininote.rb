@@ -1,16 +1,18 @@
 cask "mininote" do
-  version "0.3.6"
-  sha256 "c74946c87ddcf3e3992a5043dbc31842ff007168d2a74f586de29032b71c3141"
+  version "0.3.7"
+  sha256 "bb20b4e64f3a2a0521feb8b2716bb86d8141c9cbc3ae7adfb2acb1b9f2a5f65e"
 
   url "https://github.com/vivalucas/mininote/releases/download/v#{version}/MiniNote-#{version}.dmg"
   name "MiniNote"
-  desc "Minimal note app for macOS"
+  desc "Minimal note app"
   homepage "https://github.com/vivalucas/mininote"
 
   livecheck do
     url :url
     strategy :github_latest
   end
+
+  depends_on macos: ">= :tahoe"
 
   app "MiniNote.app"
 
